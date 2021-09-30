@@ -54,6 +54,7 @@ let h = d.getHours();
 function mng(){
     textUpdate.innerText = "Wake UP!!";
     textHeading.innerText = "Good Morning!!";
+    wishHeadingBox.style.display="block";
     clockIMG.style.backgroundImage = "url('./images/3.png')";
 
 }
@@ -61,12 +62,14 @@ function mng(){
 function noon(){
     textUpdate.innerText = "Have Some Food!!";
     textHeading.innerText = "GOOD Afternoon!!";
+    wishHeadingBox.style.display="block";
     clockIMG.style.backgroundImage = "url('./images/1.png')";
 }
 //night function
 function night(){
     textUpdate.innerText = "Take A Nap!!";
     textHeading.innerText = "GOOD NIGHT!!";
+    wishHeadingBox.style.display="block";
     clockIMG.style.backgroundImage = "url('./images/2.png')";
 }
 
